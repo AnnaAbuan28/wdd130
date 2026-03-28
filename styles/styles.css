@@ -1,5 +1,13 @@
+:root {
+    --color: darkblue;
+    --border: 1px black;
+    --height: auto;
+
+}
+
 nav {
-    background-color: darkblue;
+    /* background-color: darkblue; */
+    background-color: var(--color);
     padding: 10px;
 }
 
@@ -30,7 +38,8 @@ aside img {
 }
 
 h1 {
-    color: darkblue
+    /* color: darkblue */
+    color: var(--color);
 }
 
 main img {
