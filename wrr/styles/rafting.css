@@ -39,6 +39,10 @@ footer {
 
 }
 
+header img {
+    position: relative;
+}
+
 h2,
 h3 {
     font-family: var(--heading-font);
