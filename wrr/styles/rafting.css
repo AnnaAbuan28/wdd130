@@ -31,7 +31,7 @@ body {
 header,
 main,
 footer {
-    width: 860px;
+    width: 1200px;
     margin: 0 auto;
     background-color: #FFFF;
     padding: 1rem;
@@ -91,7 +91,7 @@ h1 {
 
 .hero article {
     position: absolute;
-    top: 620px;
+    top: 460px;
     width: auto;
     padding: 5px;
     text-align: left;
