@@ -1,6 +1,6 @@
 :root {
-    --primary-color: rgb(27, 27, 27);
-    --secondary-color: #FFFFFF;
+    --primary-color: rgb(255, 255, 255);
+    --secondary-color: #f0f1e5;
     --accent1-color: rgb(0, 46, 38);
     --accent2-color: #2E8B57;
     --heading-font: "Montserrat", "Lato", extrabold;
@@ -33,7 +33,7 @@ main,
 footer {
     width: 1200px;
     margin: 0 auto;
-    background-color: #FFFF;
+    background-color: var(--primary-color);
     padding: 1rem;
     border: 1px solid rgb(0 0 0 / .1);
 
@@ -55,7 +55,7 @@ h3 {
     text-align: center;
     opacity: 0.9;
     background-color: var(--accent2-color);
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 nav,
