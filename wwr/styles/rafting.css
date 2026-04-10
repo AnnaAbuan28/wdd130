@@ -1,7 +1,7 @@
 :root {
-    --primary-color: white;
+    --primary-color: rgb(245, 245, 245);
     --secondary-color: darkblue;
-    --accent1-color: #darkgray;
+    --accent1-color: rgb(1, 1, 8);
     --accent2-color: #F97316;
     --heading-font: "Montserrat", "Lato", extrabold;
     --body-font: Opens Sans, Roboto;
@@ -46,7 +46,7 @@ header img {
 h2,
 h3 {
     font-family: var(--heading-font);
-    color: var(--secondary-color);
+    color: var(--primary-color);
     font-size: 2em;
 
     top: 20px;
