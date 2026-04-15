@@ -72,7 +72,7 @@ header img {
 .navigation li {
     flex: 1 1 auto;
     background-color: var(--accent2-color);
-    border: 5px solid rgba(var(--accent2-color), 0.25);
+    /* border: 5px solid rgba(var(--accent2-color); */
 
 }
 
@@ -162,7 +162,7 @@ header img {
     color: var(--secondary-color);
     align-items: center;
     /* font-size: clamp(14px, 2vw, 24px); */
-    ver
+
 }
 
 .history img {
@@ -215,7 +215,7 @@ figure img {
 }
 
 figcaption {
-    background-color: rgba(var(--accent1-color), 05);
+    background-color: var(--accent1-color);
     color: var(--primary-color);
     font: italic smaller sans-serif;
     padding: 3px;
