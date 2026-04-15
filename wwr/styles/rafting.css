@@ -17,7 +17,7 @@ header {
     /* background-color: var(--primary-color); */
 
     position: relative;
-    color: var(--accent2-color);
+    /* color: var(--accent2-color); */
     text-decoration: none;
     display: grid;
     grid-template-columns: 1fr 5fr;
