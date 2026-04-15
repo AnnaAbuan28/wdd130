@@ -41,7 +41,7 @@ header,
 footer {
     width: 100%;
     margin: 10px;
-    color: var(--primary-color);
+    color: transparent;
     padding: 0;
     gap: 20px;
     /* border: 1px solid rgb(0 0 0 / .1); */
@@ -60,6 +60,8 @@ header img {
 li {
     color: var(--primary-color);
 }
+
+    {}
 
 .navigation {
     display: flex;
