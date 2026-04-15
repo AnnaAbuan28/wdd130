@@ -112,7 +112,7 @@ header img {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -125,7 +125,7 @@ h1 {
 }
 
 .hero article {
-    position: relative;
+    position: absolute;
     display: grid;
     grid-template-columns: 4fr 0.5fr;
     /* top: 10px; */
