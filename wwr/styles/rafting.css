@@ -72,7 +72,8 @@ header img {
 .navigation li {
     flex: 1 1 auto;
     background-color: var(--accent2-color);
-    border: 5px solid rgb(22, 0, 120);
+    border: 5px solid rgba(var(--accent2-color), 0.25);
+
 }
 
 .navigation a {
@@ -161,7 +162,7 @@ header img {
     color: var(--secondary-color);
     align-items: center;
     /* font-size: clamp(14px, 2vw, 24px); */
-
+    ver
 }
 
 .history img {
@@ -195,7 +196,7 @@ header img {
 }
 
 figure {
-    border: thin silver solid;
+    border: thin var(--accent1-color) solid;
     display: flex;
     flex-flow: column;
 
@@ -214,8 +215,8 @@ figure img {
 }
 
 figcaption {
-    background-color: #222222;
-    color: white;
+    background-color: rgba(var(--accent1-color), 05);
+    color: var(--primary-color);
     font: italic smaller sans-serif;
     padding: 3px;
     text-align: center;
@@ -262,14 +263,5 @@ footer {
 
 .socialmedia a {
     text-decoration: none;
-
-}
-
-.box {
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 10%);
-    padding: 2rem;
-    background-color: #ddd;
-    color: #000;
 
 }
