@@ -71,7 +71,7 @@ header img {
     list-style: none;
     margin: 0px 200px 0px 20px;
     width: auto;
-    padding: auto;
+    padding: 0;
     gap: 5px;
     flex-wrap: wrap;
 
@@ -176,7 +176,7 @@ h1 {
 .history img {
 
     display: inline-flex;
-    float: center;
+    align-self: center;
     margin: 15px 20px 15px 30px;
     /* top: 700px; */
     width: 200px;
@@ -208,7 +208,7 @@ figure {
     display: flex;
     flex-flow: column;
 
-    padding: auto;
+    padding: 0;
     max-width: 150px;
     max-height: 100px;
     margin: 20px 1em 4em 2em;
@@ -264,7 +264,7 @@ footer {
 }
 
 .socialmedia {
-    position: block;
+    position: relative;
     display: flex;
 
 }
