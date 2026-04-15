@@ -57,6 +57,10 @@ header img {
 
 }
 
+li {
+    color: var(--primary-color);
+}
+
 .navigation {
     display: flex;
     list-style: none;
