@@ -33,18 +33,18 @@ body {
     /* color: var(--accent1-color); */
 }
 
-.hero,
-.section,
-.history,
-.adventure,
+nav,
+body,
+main,
+adventure,
 header,
 footer {
     width: 100%;
     margin: 10px;
-    background-color: var(--primary-color);
+    color: var(--primary-color);
     padding: 0;
     gap: 20px;
-    border: 1px solid rgb(0 0 0 / .1);
+    /* border: 1px solid rgb(0 0 0 / .1); */
 
 }
 
@@ -65,7 +65,7 @@ header img {
     padding: 0;
     gap: 5px;
     flex-wrap: wrap;
-
+    color: var(--primary-color);
     justify-content: space-evenly;
 }
 
@@ -138,7 +138,7 @@ header img {
     margin: 15px 20px 15px 30px;
     /* top: 700px; */
     width: 120px;
-    border: 1px solid #000;
+    border: 1px solid #fcf8f8;
     /* padding: 0.65rem; */
     box-shadow: 0 0 30px #111;
 }
@@ -252,7 +252,7 @@ footer {
     grid-template-columns: 4fr 0.5fr;
     /* align-items: center; */
     text-align: center;
-
+    color: var(--accent2-color);
 }
 
 .socialmedia {
