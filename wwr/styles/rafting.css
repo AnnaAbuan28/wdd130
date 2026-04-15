@@ -36,14 +36,14 @@ body {
 .history,
 .adventure,
 header,
-footer main {
+footer {
     width: 100%;
     margin: 10px;
     background-color: var(--primary-color);
     padding: auto;
     gap: 20px;
     border: 1px solid rgb(0 0 0 / .1);
-    */
+
 }
 
 header {
