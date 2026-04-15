@@ -71,7 +71,7 @@ li {
     padding: 0;
     gap: 5px;
     flex-wrap: wrap;
-    color: var(--primary-color);
+    /* color: var(--primary-color); */
     justify-content: space-evenly;
 }
 
